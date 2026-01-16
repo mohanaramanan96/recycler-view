@@ -1,0 +1,28 @@
+
+.item {
+  display: flex;
+  gap: 14px;
+  padding: 12px;
+  border-radius: 14px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: transform 0.25s ease, background 0.25s ease;
+}
+
+.item:hover {
+  transform: scale(1.02);
+  background: rgba(255,255,255,0.05);
+}
+
+.item img {
+  width: 110px;
+  border-radius: 10px;
+}
+
+.glass {
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(10px);
+}
+
+.rating { color: gold; font-size: 14px; }
+.overview { font-size: 13px; color: #ccc; }
